@@ -1,0 +1,6 @@
+{
+  "name": "EducaTech Planilhas - Canindé Distribuidora",
+  "description": "Plataforma gamificada de ensino de planilhas com simulação do Excel, avaliação pela Taxonomia de Bloom, safe-fail, lore com Juvenildo Canindé e Zequinha Silva, e acessibilidade WCAG 2.1 AA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
+
+/* Ensure spreadsheet cells and table contents always have strong contrast */
+table[role="grid"] td,
+table[role="grid"] th {
+  color: inherit;
+}
+
+.high-contrast {
+  background-color: #000000 !important;
+  color: #ffff00 !important;
+}
+
+.high-contrast * {
+  border-color: #ffff00 !important;
+}
+
+.high-contrast input,
+.high-contrast textarea,
+.high-contrast select {
+  background-color: #000000 !important;
+  color: #ffff00 !important;
+  border: 2px solid #ffff00 !important;
+}
+
+.high-contrast button {
+  border: 2px solid #ffff00 !important;
+  color: #ffff00 !important;
+}
+
+.high-contrast table,
+.high-contrast td,
+.high-contrast th {
+  background-color: #000000 !important;
+  color: #ffff00 !important;
+  border-color: #ffff00 !important;
+}
+
+.high-contrast .bg-slate-900,
+.high-contrast .bg-slate-800,
+.high-contrast .bg-white,
+.high-contrast .bg-slate-50,
+.high-contrast .bg-slate-100,
+.high-contrast .bg-slate-200 {
+  background-color: #000000 !important;
+  color: #ffff00 !important;
+}
+
